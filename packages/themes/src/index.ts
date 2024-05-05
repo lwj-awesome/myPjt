@@ -1,1 +1,1 @@
-console.log("first Build");
+export * as vars from "./variables";

@@ -11,9 +11,10 @@
         }
     },
     "scripts": {
-        "build": "npm run build:build.config && npm run build:type",
+        "build": "npm run build:build.config && npm run build:type && npm run build:css",
         "build:build.config": "node build.config.js",
         "build:type": "tsc --emitDeclarationOnly",
+        "build:css": "node ./scripts/build-css-modules.js",
         "clean": "rm -rf dist"
     },
     "devDependencies": {
