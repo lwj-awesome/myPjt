@@ -1,0 +1,11 @@
+{
+  "name": "@mypjt/esbuild-config",
+  "main": "index.js",
+  "packageManager": "yarn@4.2.1",
+  "dependencies": {
+    "esbuild": "0.16.17"
+  },
+  "scripts": {
+    "build": "echo esbuild-config!"
+  }
+}

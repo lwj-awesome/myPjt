@@ -1,25 +1,25 @@
 {
-    "name": "@mypjt/themes",
-    "version": "0.0.1",
-    "type": "module",
-    "main": "dist/index.js",
-    "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "import": "./dist/index.js",
-            "require": "./dist.index.cjs"
-        },
-        "./themes.css": "./dist/themes.css"
+  "name": "@mypjt/themes",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist.index.cjs"
     },
-    "scripts": {
-        "build": "npm run build:build.config && npm run build:type && npm run build:css",
-        "build:build.config": "node build.config.js",
-        "build:type": "tsc --emitDeclarationOnly",
-        "build:css": "node ./scripts/build-css-modules.js",
-        "clean": "rm -rf dist"
-    },
-    "devDependencies": {
-        "esbuild": "^0.16.17",
-        "typescript": "^5.4.5"
-    }
+    "./themes.css": "./dist/themes.css"
+  },
+  "scripts": {
+    "build": "yarn build:build.config && yarn build:type && yarn build:css",
+    "build:build.config": "node build.config.js",
+    "build:type": "tsc --emitDeclarationOnly",
+    "build:css": "node ./scripts/build-css-modules.js",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@mypjt/esbuild-config": "workspace:^",
+    "typescript": "^5.4.5"
+  }
 }
