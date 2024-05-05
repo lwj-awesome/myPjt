@@ -1,0 +1,11 @@
+{
+  "name": "mypjt",
+  "version": "0.0.0",
+  "description": "<h1>HI</H1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
