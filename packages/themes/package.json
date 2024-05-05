@@ -2,11 +2,22 @@
     "name": "@mypjt/themes",
     "version": "0.0.1",
     "type": "module",
+    "main": "dist/index.js",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.js",
+            "require": "./dist.index.cjs"
+        }
+    },
     "scripts": {
-        "build": "npm run build:build.config",
-        "build:build.config": "node build.config.js"
+        "build": "npm run build:build.config && npm run build:type",
+        "build:build.config": "node build.config.js",
+        "build:type": "tsc --emitDeclarationOnly",
+        "clean": "rm -rf dist"
     },
     "devDependencies": {
-        "esbuild": "^0.16.17"
+        "esbuild": "^0.16.17",
+        "typescript": "^5.4.5"
     }
 }
