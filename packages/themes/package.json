@@ -1,0 +1,12 @@
+{
+    "name": "@mypjt/themes",
+    "version": "0.0.1",
+    "type": "module",
+    "scripts": {
+        "build": "npm run build:build.config",
+        "build:build.config": "node build.config.js"
+    },
+    "devDependencies": {
+        "esbuild": "^0.16.17"
+    }
+}
