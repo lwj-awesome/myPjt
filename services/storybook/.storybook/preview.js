@@ -1,6 +1,7 @@
 import '@mypjt/themes/themes.css';
 import "./style.css";
-
+import { withThemeFromJSXProvider } from '@storybook/addon-themes';
+import { Global, css } from '@emotion/react';
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -50,5 +51,8 @@ const initTheme = () => {
 };
 
 // initTheme();
-
+export const decorators = [
+  withThemeFromJSXProvider({
+  }),
+];
 export default preview;
