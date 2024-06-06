@@ -3,7 +3,7 @@ const { build } = require("esbuild");
 const run = ({ entryPoints = ["src/index.ts"], pkg, config = {} }) => {
   const dev = process.argv.includes("--dev");
   const minify = !dev;
-  const watch = process.argv.includes("--watch");
+ const watch = process.argv.includes("--watch");
 
   const external = Object.keys({
     ...pkg.devDependencies,

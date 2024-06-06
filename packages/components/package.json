@@ -17,6 +17,9 @@
     "clean": "rm -rf dist"
   },
   "devDependencies": {
+    "@emotion/css": "^11.11.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
     "@mypjt/esbuild-config": "workspace:^",
     "@mypjt/themes": "workspace:^",
     "@types/react": "^18.3.1",

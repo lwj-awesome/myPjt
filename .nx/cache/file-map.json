@@ -32,7 +32,7 @@
       },
       {
         "file": ".gitignore",
-        "hash": "18148984041212642862"
+        "hash": "5245950014724112345"
       },
       {
         "file": ".nx/cache/11544423327697919728/code",
@@ -104,15 +104,15 @@
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "1750288132832515451"
+        "hash": "3690271967197003463"
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "5376717119717265303"
+        "hash": "18091499473296282649"
       },
       {
         "file": ".nx/cache/lockfile.hash",
-        "hash": "8907497531613958820"
+        "hash": "3158056446745658814"
       },
       {
         "file": ".nx/cache/nx_files.nxt",
@@ -120,11 +120,11 @@
       },
       {
         "file": ".nx/cache/parsed-lock-file.json",
-        "hash": "535705663710623315"
+        "hash": "10142118955279619204"
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "5950799409854045308"
+        "hash": "16815770417724205765"
       },
       {
         "file": ".nx/cache/run.json",
@@ -248,41 +248,10 @@
       },
       {
         "file": "yarn.lock",
-        "hash": "16648016368005439326"
+        "hash": "12304287999576968634"
       }
     ],
     "projectFileMap": {
-      "@mypjt/components": [
-        {
-          "file": "packages/components/build.config.js",
-          "hash": "4971288944833292207"
-        },
-        {
-          "file": "packages/components/index.ts",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "packages/components/package.json",
-          "hash": "10983631597937999405",
-          "deps": [
-            "@mypjt/esbuild-config",
-            "@mypjt/themes",
-            "npm:typescript"
-          ]
-        },
-        {
-          "file": "packages/components/src/Box.tsx",
-          "hash": "17366029413540455392"
-        },
-        {
-          "file": "packages/components/src/index.ts",
-          "hash": "11382343668437761312"
-        },
-        {
-          "file": "packages/components/tsconfig.json",
-          "hash": "8519493990262767824"
-        }
-      ],
       "@mypjt/themes": [
         {
           "file": "packages/themes/build.config.js",
@@ -317,12 +286,12 @@
           "hash": "7292877734584124380"
         },
         {
-          "file": "packages/themes/src/variables/colors/index.ts",
-          "hash": "8608286768361054391"
+          "file": "packages/themes/src/variables/color.ts",
+          "hash": "11587538449522605924"
         },
         {
-          "file": "packages/themes/src/variables/colors/scale.ts",
-          "hash": "7489873214287167939"
+          "file": "packages/themes/src/variables/colors/index.ts",
+          "hash": "4485190181976599064"
         },
         {
           "file": "packages/themes/src/variables/colors/static/dark.ts",
@@ -338,7 +307,7 @@
         },
         {
           "file": "packages/themes/src/variables/index.ts",
-          "hash": "17288868138055620940"
+          "hash": "4588596130949489591"
         },
         {
           "file": "packages/themes/src/variables/typography.ts",
@@ -349,6 +318,49 @@
           "hash": "8519493990262767824"
         }
       ],
+      "@mypjt/components": [
+        {
+          "file": "packages/components/build.config.js",
+          "hash": "16039959028202020832"
+        },
+        {
+          "file": "packages/components/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "packages/components/package.json",
+          "hash": "10983631597937999405",
+          "deps": [
+            "@mypjt/esbuild-config",
+            "@mypjt/themes",
+            "npm:typescript"
+          ]
+        },
+        {
+          "file": "packages/components/tsconfig.json",
+          "hash": "8519493990262767824"
+        },
+        {
+          "file": "packages/components/src/react-components/Box.tsx",
+          "hash": "4249516447737981831"
+        },
+        {
+          "file": "packages/components/src/react-components/index.ts",
+          "hash": "11382343668437761312"
+        },
+        {
+          "file": "packages/components/src/index.ts",
+          "hash": "5539886231304886151"
+        },
+        {
+          "file": "packages/components/src/colorGroup/mainColor.ts",
+          "hash": "7308425527608149182"
+        },
+        {
+          "file": "packages/components/src/componentGroup/Box.tsx",
+          "hash": "18423923056990921464"
+        }
+      ],
       "@mypjt/esbuild-config": [
         {
           "file": "packages/esbuild-config/README.md",
@@ -356,11 +368,120 @@
         },
         {
           "file": "packages/esbuild-config/index.js",
-          "hash": "12090130717431924956"
+          "hash": "11010454046625586860"
         },
         {
           "file": "packages/esbuild-config/package.json",
           "hash": "5009798608571821740"
+        }
+      ],
+      "storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "11078301725031675987"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "14857115373730768021"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "8399794725490875451",
+          "deps": [
+            "@mypjt/components"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/assets/accessibility.png",
+          "hash": "8320090732909952534"
+        },
+        {
+          "file": "services/storybook/stories/assets/accessibility.svg",
+          "hash": "15602003233623176060"
+        },
+        {
+          "file": "services/storybook/stories/assets/addon-library.png",
+          "hash": "16374768047356923990"
+        },
+        {
+          "file": "services/storybook/stories/assets/assets.png",
+          "hash": "1689741917386238418"
+        },
+        {
+          "file": "services/storybook/stories/assets/avif-test-image.avif",
+          "hash": "4094029619605446073"
+        },
+        {
+          "file": "services/storybook/stories/assets/context.png",
+          "hash": "1348985643342670004"
+        },
+        {
+          "file": "services/storybook/stories/assets/discord.svg",
+          "hash": "6125630960371971211"
+        },
+        {
+          "file": "services/storybook/stories/assets/docs.png",
+          "hash": "18280049778802555454"
+        },
+        {
+          "file": "services/storybook/stories/assets/figma-plugin.png",
+          "hash": "6723570263244528263"
+        },
+        {
+          "file": "services/storybook/stories/assets/github.svg",
+          "hash": "2312545202508444152"
+        },
+        {
+          "file": "services/storybook/stories/assets/share.png",
+          "hash": "2975175390326490054"
+        },
+        {
+          "file": "services/storybook/stories/assets/styling.png",
+          "hash": "7588361746934983524"
+        },
+        {
+          "file": "services/storybook/stories/assets/testing.png",
+          "hash": "9937432921968504604"
+        },
+        {
+          "file": "services/storybook/stories/assets/theming.png",
+          "hash": "10878554446503237882"
+        },
+        {
+          "file": "services/storybook/stories/assets/tutorials.svg",
+          "hash": "6526954541826200653"
+        },
+        {
+          "file": "services/storybook/stories/assets/youtube.svg",
+          "hash": "14842170009963527645"
+        },
+        {
+          "file": "services/storybook/stories/Badge/Badge.jsx",
+          "hash": "576071631371348309"
+        },
+        {
+          "file": "services/storybook/stories/Badge/Badge.css",
+          "hash": "9641850067687118932"
+        },
+        {
+          "file": "services/storybook/stories/Button/Button.css",
+          "hash": "9641850067687118932"
+        },
+        {
+          "file": "services/storybook/stories/Button/Button.stories.js",
+          "hash": "2618003255717131293"
+        },
+        {
+          "file": "services/storybook/stories/Button/Button.jsx",
+          "hash": "5965314318595813944"
+        },
+        {
+          "file": "services/storybook/stories/Badge.stories.js",
+          "hash": "16624183995787838177"
         }
       ]
     }

@@ -1,1 +1,1 @@
-export { Box } from "./Box";
+export * as components from './componentGroup'
