@@ -1,8 +1,7 @@
-import { fn } from '@storybook/test';
-import {components} from '@mypjt/components'
+import {Badge} from '@mypjt/components'
 export default {
   title: 'Badge',
-  component: components.Badge,
+  component: Badge,
   parameters: {
     layout: 'centered',
   },
@@ -10,13 +9,9 @@ export default {
   argTypes: {
     backgroundColor: { control: 'color' },
   },
-  args: { onClick: fn() },
 };
 export const Primary = {
-  args: {
-    primary: true,
-    label: 'Button',
-  },
+
 };
 
 
