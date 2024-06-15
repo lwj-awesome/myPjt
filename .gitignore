@@ -24,3 +24,5 @@ dist
 .env
 **/.env
 *storybook.log
+.nx/cache/file-map.json
+
