@@ -1,17 +1,13 @@
-import {Badge} from '@mypjt/components'
+import { Tag } from "@mypjt/components";
 export default {
-  title: 'Badge',
-  component: Badge,
+  title: "Badge",
+  component: Tag,
   parameters: {
-    layout: 'centered',
+    layout: "centered",
   },
-  tags: ['autodocs'],
+  tags: ["autodocs"],
   argTypes: {
-    backgroundColor: { control: 'color' },
+    backgroundColor: { control: "color" },
   },
 };
-export const Primary = {
-
-};
-
-
+export const Primary = {};
