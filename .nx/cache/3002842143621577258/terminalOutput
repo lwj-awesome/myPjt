@@ -1,0 +1,4 @@
+(node:1987) ExperimentalWarning: Use `importAttributes` instead of `importAssertions`
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1987) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)

@@ -51,6 +51,22 @@
         "hash": "4664556114322093609"
       },
       {
+        "file": ".nx/cache/15513152862283191346/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/15513152862283191346/source",
+        "hash": "13324691418111152552"
+      },
+      {
+        "file": ".nx/cache/15513152862283191346/terminalOutput",
+        "hash": "16125073485846180552"
+      },
+      {
+        "file": ".nx/cache/15513152862283191346.commit",
+        "hash": "4664556114322093609"
+      },
+      {
         "file": ".nx/cache/18.3.4-nx.darwin-arm64.node",
         "hash": "18104278352545448415"
       },
@@ -87,6 +103,22 @@
         "hash": "4664556114322093609"
       },
       {
+        "file": ".nx/cache/7715612195948491070/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/7715612195948491070/source",
+        "hash": "13324691418111152552"
+      },
+      {
+        "file": ".nx/cache/7715612195948491070/terminalOutput",
+        "hash": "6154869475428710213"
+      },
+      {
+        "file": ".nx/cache/7715612195948491070.commit",
+        "hash": "4664556114322093609"
+      },
+      {
         "file": ".nx/cache/9285461571610974722/code",
         "hash": "1838281907459330133"
       },
@@ -104,11 +136,11 @@
       },
       {
         "file": ".nx/cache/d/server-process.json",
-        "hash": "122290962247427832"
+        "hash": "13027630355450040228"
       },
       {
         "file": ".nx/cache/file-map.json",
-        "hash": "4166639045031820635"
+        "hash": "16690652467972867468"
       },
       {
         "file": ".nx/cache/lockfile.hash",
@@ -124,7 +156,7 @@
       },
       {
         "file": ".nx/cache/project-graph.json",
-        "hash": "8568623828927384786"
+        "hash": "8820702828120892672"
       },
       {
         "file": ".nx/cache/run.json",
@@ -135,12 +167,20 @@
         "hash": "10340925207189968207"
       },
       {
+        "file": ".nx/cache/terminalOutputs/15513152862283191346",
+        "hash": "16125073485846180552"
+      },
+      {
         "file": ".nx/cache/terminalOutputs/3082473526883569529",
         "hash": "13844753657961962398"
       },
       {
         "file": ".nx/cache/terminalOutputs/5112888051801977201",
         "hash": "16125073485846180552"
+      },
+      {
+        "file": ".nx/cache/terminalOutputs/7715612195948491070",
+        "hash": "6154869475428710213"
       },
       {
         "file": ".nx/cache/terminalOutputs/9285461571610974722",
@@ -251,43 +291,43 @@
         "hash": "4524213089246732411"
       },
       {
-        "file": ".nx/cache/15513152862283191346/source",
+        "file": ".nx/cache/16657711643830632549/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/16657711643830632549/terminalOutput",
+        "hash": "16125073485846180552"
+      },
+      {
+        "file": ".nx/cache/16657711643830632549/source",
         "hash": "13324691418111152552"
       },
       {
-        "file": ".nx/cache/15513152862283191346/terminalOutput",
+        "file": ".nx/cache/terminalOutputs/16657711643830632549",
         "hash": "16125073485846180552"
       },
       {
-        "file": ".nx/cache/15513152862283191346/code",
-        "hash": "1838281907459330133"
-      },
-      {
-        "file": ".nx/cache/15513152862283191346.commit",
+        "file": ".nx/cache/16657711643830632549.commit",
         "hash": "4664556114322093609"
       },
       {
-        "file": ".nx/cache/terminalOutputs/15513152862283191346",
-        "hash": "16125073485846180552"
+        "file": ".nx/cache/3002842143621577258/terminalOutput",
+        "hash": "8235810201122392467"
       },
       {
-        "file": ".nx/cache/terminalOutputs/7715612195948491070",
-        "hash": "6154869475428710213"
+        "file": ".nx/cache/terminalOutputs/3002842143621577258",
+        "hash": "8235810201122392467"
       },
       {
-        "file": ".nx/cache/7715612195948491070/terminalOutput",
-        "hash": "6154869475428710213"
-      },
-      {
-        "file": ".nx/cache/7715612195948491070/code",
-        "hash": "1838281907459330133"
-      },
-      {
-        "file": ".nx/cache/7715612195948491070.commit",
+        "file": ".nx/cache/3002842143621577258.commit",
         "hash": "4664556114322093609"
       },
       {
-        "file": ".nx/cache/7715612195948491070/source",
+        "file": ".nx/cache/3002842143621577258/code",
+        "hash": "1838281907459330133"
+      },
+      {
+        "file": ".nx/cache/3002842143621577258/source",
         "hash": "13324691418111152552"
       }
     ],
@@ -307,6 +347,18 @@
           ]
         },
         {
+          "file": "packages/components/src/Badge/Badge.tsx",
+          "hash": "5184391216503932958"
+        },
+        {
+          "file": "packages/components/src/Badge/badge.styles.ts",
+          "hash": "2332921553410636271"
+        },
+        {
+          "file": "packages/components/src/Badge/index.ts",
+          "hash": "13622145814043971342"
+        },
+        {
           "file": "packages/components/src/colorGroup/backgroundColorSet.ts",
           "hash": "17687460470478392795"
         },
@@ -319,154 +371,12 @@
           "hash": "16435841262636540302"
         },
         {
-          "file": "packages/components/src/componentGroup/Badge/Badge.tsx",
-          "hash": "7950042188332908528"
-        },
-        {
-          "file": "packages/components/src/componentGroup/Badge/badge.styles.ts",
-          "hash": "9153725055544618544"
-        },
-        {
-          "file": "packages/components/src/componentGroup/index.ts",
-          "hash": "6035017256032076351"
-        },
-        {
           "file": "packages/components/src/index.ts",
           "hash": "10572101867096685550"
         },
         {
           "file": "packages/components/tsconfig.json",
           "hash": "8330539251188879067"
-        },
-        {
-          "file": "packages/components/src/Badge/index.ts",
-          "hash": "13622145814043971342"
-        },
-        {
-          "file": "packages/components/src/Badge/Badge.tsx",
-          "hash": "5184391216503932958"
-        },
-        {
-          "file": "packages/components/src/Badge/badge.styles.ts",
-          "hash": "14180051843096240144"
-        },
-        {
-          "file": "packages/components/src/test/Test.tsx",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "packages/components/src/Test/Test.tsx",
-          "hash": "17731622444845829306"
-        },
-        {
-          "file": "packages/components/src/Test/index.ts",
-          "hash": "15171042002828450306"
-        }
-      ],
-      "storybook": [
-        {
-          "file": "services/storybook/.storybook/main.js",
-          "hash": "11078301725031675987"
-        },
-        {
-          "file": "services/storybook/.storybook/preview.js",
-          "hash": "7598826270569919803"
-        },
-        {
-          "file": "services/storybook/.storybook/style.css",
-          "hash": "8630671096256941506"
-        },
-        {
-          "file": "services/storybook/README.md",
-          "hash": "2624393197388313932"
-        },
-        {
-          "file": "services/storybook/package.json",
-          "hash": "12152318165203726925",
-          "deps": [
-            "@mypjt/components",
-            "@mypjt/themes"
-          ]
-        },
-        {
-          "file": "services/storybook/stories/Badge.stories.js",
-          "hash": "13419343941015206831"
-        },
-        {
-          "file": "services/storybook/stories/Button/Button.css",
-          "hash": "9641850067687118932"
-        },
-        {
-          "file": "services/storybook/stories/Button/Button.jsx",
-          "hash": "5965314318595813944"
-        },
-        {
-          "file": "services/storybook/stories/Button/Button.stories.js",
-          "hash": "2618003255717131293"
-        },
-        {
-          "file": "services/storybook/stories/assets/accessibility.png",
-          "hash": "8320090732909952534"
-        },
-        {
-          "file": "services/storybook/stories/assets/accessibility.svg",
-          "hash": "15602003233623176060"
-        },
-        {
-          "file": "services/storybook/stories/assets/addon-library.png",
-          "hash": "16374768047356923990"
-        },
-        {
-          "file": "services/storybook/stories/assets/assets.png",
-          "hash": "1689741917386238418"
-        },
-        {
-          "file": "services/storybook/stories/assets/avif-test-image.avif",
-          "hash": "4094029619605446073"
-        },
-        {
-          "file": "services/storybook/stories/assets/context.png",
-          "hash": "1348985643342670004"
-        },
-        {
-          "file": "services/storybook/stories/assets/discord.svg",
-          "hash": "6125630960371971211"
-        },
-        {
-          "file": "services/storybook/stories/assets/docs.png",
-          "hash": "18280049778802555454"
-        },
-        {
-          "file": "services/storybook/stories/assets/figma-plugin.png",
-          "hash": "6723570263244528263"
-        },
-        {
-          "file": "services/storybook/stories/assets/github.svg",
-          "hash": "2312545202508444152"
-        },
-        {
-          "file": "services/storybook/stories/assets/share.png",
-          "hash": "2975175390326490054"
-        },
-        {
-          "file": "services/storybook/stories/assets/styling.png",
-          "hash": "7588361746934983524"
-        },
-        {
-          "file": "services/storybook/stories/assets/testing.png",
-          "hash": "9937432921968504604"
-        },
-        {
-          "file": "services/storybook/stories/assets/theming.png",
-          "hash": "10878554446503237882"
-        },
-        {
-          "file": "services/storybook/stories/assets/tutorials.svg",
-          "hash": "6526954541826200653"
-        },
-        {
-          "file": "services/storybook/stories/assets/youtube.svg",
-          "hash": "14842170009963527645"
         }
       ],
       "@mypjt/themes": [
@@ -533,6 +443,36 @@
         {
           "file": "packages/themes/tsconfig.json",
           "hash": "8519493990262767824"
+        }
+      ],
+      "storybook": [
+        {
+          "file": "services/storybook/.storybook/main.js",
+          "hash": "11078301725031675987"
+        },
+        {
+          "file": "services/storybook/.storybook/preview.js",
+          "hash": "7598826270569919803"
+        },
+        {
+          "file": "services/storybook/.storybook/style.css",
+          "hash": "8630671096256941506"
+        },
+        {
+          "file": "services/storybook/README.md",
+          "hash": "2624393197388313932"
+        },
+        {
+          "file": "services/storybook/package.json",
+          "hash": "12152318165203726925",
+          "deps": [
+            "@mypjt/components",
+            "@mypjt/themes"
+          ]
+        },
+        {
+          "file": "services/storybook/stories/Badge.stories.js",
+          "hash": "13419343941015206831"
         }
       ],
       "@mypjt/esbuild-config": [
