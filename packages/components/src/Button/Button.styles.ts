@@ -1,11 +1,10 @@
 import { SerializedStyles, css } from "@emotion/react";
-import { ColorType, ThreeLayoutModeType } from "../common.type";
+import { ColorType, CommonSizeType, ThreeLayoutModeType } from "../common.type";
 import { fontVars } from "@mypjt/themes";
 import { commonThreeModeStyle } from "../common.styles";
-import { ButtonSizeType } from "./Button.types";
 
 /** @desc Button, size에 따른 스윗치 */
-const ButtonFont = (size: ButtonSizeType): SerializedStyles => {
+const ButtonFont = (size: CommonSizeType): SerializedStyles => {
   switch (size) {
     case "lg":
       return css`
@@ -33,7 +32,7 @@ const ButtonFont = (size: ButtonSizeType): SerializedStyles => {
 export const ButtonStyle = (
   color: ColorType,
   mode: ThreeLayoutModeType,
-  size: ButtonSizeType,
+  size: CommonSizeType,
 ) => css`
   ${commonThreeModeStyle(color, mode)}
   ${ButtonFont(size)}

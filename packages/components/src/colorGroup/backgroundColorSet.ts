@@ -25,4 +25,5 @@ export const sub_background_color: ColorSetProps = {
   cyan: vars.colors.$scale.cyan[100],
 };
 
+export const readOnly_background_color = vars.colors.$scale.gray[300];
 export const white_background_color = vars.colors.$scale.whiteAlpha[100];

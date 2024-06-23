@@ -1,11 +1,9 @@
-import { ColorType, ThreeLayoutModeType } from "../common.type";
-
-export type ButtonSizeType = "lg" | "md" | "sm" | "xs";
+import { ColorType, CommonSizeType, ThreeLayoutModeType } from "../common.type";
 
 export interface ButtonProps {
   text: string;
   color: ColorType;
   mode: ThreeLayoutModeType;
-  size: ButtonSizeType;
+  size: CommonSizeType;
   onClickButton: () => void;
 }

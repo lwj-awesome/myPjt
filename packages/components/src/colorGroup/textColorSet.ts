@@ -26,4 +26,5 @@ export const sub_text_color: ColorSetProps = {
   cyan: vars.colors.$scale.cyan[600],
 };
 
+export const readOnly_text_color = vars.colors.$scale.gray[400];
 export const white_text_color = vars.colors.$scale.whiteAlpha[900];

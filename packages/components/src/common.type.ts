@@ -17,3 +17,6 @@ export type ColorSetProps = {
 
 /** @설명 공통 3가지 레이아웃 모드의 타입 */
 export type ThreeLayoutModeType = "solid" | "outline" | "subtitle";
+
+/** @설명 공통으로 사용할 사이즈 타입  */
+export type CommonSizeType = "lg" | "md" | "sm" | "xs";
