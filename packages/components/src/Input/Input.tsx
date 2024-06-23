@@ -1,13 +1,5 @@
-import { HTMLAttributes } from "react";
-import { CommonSizeType } from "../common.type";
 import * as styles from "./input.styles";
-
-export interface InputProps extends HTMLAttributes<HTMLInputElement> {
-  size: CommonSizeType;
-  isDanger: boolean;
-  isReadOnly: boolean;
-  isRound: boolean;
-}
+import { InputProps } from "./input.types";
 
 const Input = ({
   isRound = true,
