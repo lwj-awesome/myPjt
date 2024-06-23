@@ -1,7 +1,7 @@
-import { Tag } from "@mypjt/components";
+import { Button } from "@mypjt/components";
 export default {
   title: "Badge",
-  component: Tag,
+  component: Button,
   parameters: {
     layout: "centered",
   },
