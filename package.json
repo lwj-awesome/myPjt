@@ -7,6 +7,7 @@
     "services/**/*"
   ],
   "scripts": {
+    "build:all": "nx run-many --target=build --all",
     "build": "nx build",
     "graph": "nx run-many --target=build --graph"
   },

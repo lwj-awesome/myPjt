@@ -1,7 +1,7 @@
-import { Radio } from "@mypjt/components";
+import { Input } from "@mypjt/components";
 export default {
   title: "Badge",
-  component: Radio,
+  component: Input,
   parameters: {
     layout: "centered",
   },
