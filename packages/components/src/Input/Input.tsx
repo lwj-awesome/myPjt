@@ -5,14 +5,19 @@ const Input = ({
   isRound = true,
   isDanger = false,
   isReadOnly = false,
-  size = "sm",
+  size = "lg",
   ...props
 }: InputProps) => {
   size;
   return (
-    <div css={styles.InputStyle(size, isRound, isDanger, isReadOnly)}>
-      <input {...props} readOnly={isReadOnly} disabled={isReadOnly} />
-    </div>
+    <>
+      <input
+        css={styles.InputStyle(size, isRound, isDanger, isReadOnly)}
+        {...props}
+        readOnly={isReadOnly}
+        disabled={isReadOnly}
+      />
+    </>
   );
 };
 

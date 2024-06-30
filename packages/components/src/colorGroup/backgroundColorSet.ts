@@ -27,3 +27,4 @@ export const sub_background_color: ColorSetProps = {
 
 export const readOnly_background_color = vars.colors.$scale.gray[300];
 export const white_background_color = vars.colors.$scale.whiteAlpha[100];
+export const white_ball_color = vars.colors.$scale.basicColor.white;

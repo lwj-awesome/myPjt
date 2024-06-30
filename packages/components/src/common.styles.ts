@@ -2,12 +2,14 @@ import { SerializedStyles, css } from "@emotion/react";
 import { ColorType, ThreeLayoutModeType } from "./common.type";
 import {
   main_background_color,
+  readOnly_background_color,
   sub_background_color,
   white_background_color,
 } from "./colorGroup/backgroundColorSet";
 import { main_border_color } from "./colorGroup/borderColorSet";
 import {
   main_text_color,
+  readOnly_text_color,
   sub_text_color,
   white_text_color,
 } from "./colorGroup/textColorSet";
@@ -37,4 +39,9 @@ const commonThreeModeStyle = (
   }
 };
 
-export { commonThreeModeStyle };
+const readOnlystyle = css`
+  background-color: ${readOnly_background_color};
+  color: ${readOnly_text_color};
+`;
+
+export { commonThreeModeStyle, readOnlystyle };

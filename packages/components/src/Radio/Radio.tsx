@@ -1,13 +1,5 @@
-import { HTMLAttributes, useState } from "react";
 import * as styles from "./radio.styles";
-import { ColorType } from "../common.type";
-
-export interface RadioProps extends HTMLAttributes<HTMLInputElement> {
-  color: ColorType;
-  value: string;
-  isReadOnly: boolean;
-  text: string;
-}
+import { RadioProps } from "./radio.types";
 
 const Radio = ({
   color = "red",
