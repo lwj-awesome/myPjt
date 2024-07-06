@@ -1,7 +1,7 @@
-import { Alert } from "@mypjt/components";
+import { Modal } from "@mypjt/components";
 export default {
   title: "Badge",
-  component: Alert,
+  component: Modal,
   parameters: {
     layout: "centered",
   },

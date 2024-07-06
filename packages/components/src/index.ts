@@ -12,3 +12,5 @@ export { CheckBox } from "./CheckBox";
 export { Select } from "./Select";
 export { Accordion } from "./Accordion";
 export { Alert } from "./Alert";
+export { Modal } from "./Modal";
+export { Dimmed } from "./Dimmed";

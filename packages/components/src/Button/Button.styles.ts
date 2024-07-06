@@ -37,4 +37,5 @@ export const ButtonStyle = (
   ${commonThreeModeStyle(color, mode)}
   ${ButtonFont(size)}
   border-radius: 6px;
+  cursor: pointer;
 `;
