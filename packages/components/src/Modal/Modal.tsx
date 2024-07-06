@@ -21,36 +21,33 @@ const Modal = ({
   title = "Modal title",
 }: ModalProps) => {
   return (
-    <>
-      <Dimmed>
-        <div css={styles.modalLayoutStyle}>
-          <div css={styles.modalTitleStyle}>
-            <span>{title}</span>
-            <div onClick={cancelButtonClick} className="icon-style">
-              <FaX size={14} />
-            </div>
-          </div>
-          <div css={styles.modalContentStyle}>{content}</div>
-          <div css={styles.modalButtonStyle}>
-            <Button
-              color="gray"
-              mode="solid"
-              size="xs"
-              text={cancelButtonTitle}
-              onClickButton={cancelButtonClick}
-            />
-            <Button
-              color="blue"
-              mode="solid"
-              size="xs"
-              text={confirmButtonTitle}
-              onClickButton={confirmButtonClick}
-            />
+    <Dimmed>
+      <div css={styles.modalLayoutStyle}>
+        <div css={styles.modalTitleStyle}>
+          <span>{title}</span>
+          <div onClick={cancelButtonClick} className="icon-style">
+            <FaX size={14} />
           </div>
         </div>
-      </Dimmed>
-      ㅁㅈㅇㅈ
-    </>
+        <div css={styles.modalContentStyle}>{content}</div>
+        <div css={styles.modalButtonStyle}>
+          <Button
+            color="gray"
+            mode="solid"
+            size="xs"
+            text={cancelButtonTitle}
+            onClickButton={cancelButtonClick}
+          />
+          <Button
+            color="blue"
+            mode="solid"
+            size="xs"
+            text={confirmButtonTitle}
+            onClickButton={confirmButtonClick}
+          />
+        </div>
+      </div>
+    </Dimmed>
   );
 };
 
