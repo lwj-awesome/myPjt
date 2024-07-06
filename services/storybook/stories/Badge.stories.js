@@ -1,7 +1,7 @@
-import { Input } from "@mypjt/components";
+import { Alert } from "@mypjt/components";
 export default {
   title: "Badge",
-  component: Input,
+  component: Alert,
   parameters: {
     layout: "centered",
   },

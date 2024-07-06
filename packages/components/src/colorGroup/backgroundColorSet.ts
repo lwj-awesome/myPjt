@@ -4,7 +4,7 @@ export const main_background_color: ColorSetProps = {
   gray: vars.colors.$scale.gray[500],
   blue: vars.colors.$scale.blue[500],
   teal: vars.colors.$scale.teal[500],
-  green: vars.colors.$scale.gray[500],
+  green: vars.colors.$scale.green[500],
   red: vars.colors.$scale.red[500],
   purple: vars.colors.$scale.purple[500],
   pink: vars.colors.$scale.pink[500],
@@ -16,7 +16,7 @@ export const sub_background_color: ColorSetProps = {
   gray: vars.colors.$scale.gray[100],
   blue: vars.colors.$scale.blue[100],
   teal: vars.colors.$scale.teal[100],
-  green: vars.colors.$scale.gray[100],
+  green: vars.colors.$scale.green[100],
   red: vars.colors.$scale.red[100],
   purple: vars.colors.$scale.purple[100],
   pink: vars.colors.$scale.pink[100],
@@ -28,3 +28,4 @@ export const sub_background_color: ColorSetProps = {
 export const readOnly_background_color = vars.colors.$scale.gray[300];
 export const white_background_color = vars.colors.$scale.whiteAlpha[100];
 export const white_ball_color = vars.colors.$scale.basicColor.white;
+export const table_back_color = vars.colors.$scale.gray[50];
