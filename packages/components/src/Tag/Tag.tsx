@@ -1,17 +1,20 @@
 import { TagProps } from "./tag.types";
 import * as styles from "./tag.styles";
+import { PiMouseMiddleClickDuotone } from "react-icons/pi";
 
 const Tag = ({
-  mode = "solid",
-  color = "teal",
-  text = "Tag",
-  size = "lg",
+  mode ,
+  color ,
+  text ,
+  size ,
   onClickTagButton = () => console.log("click Tag"),
 }: TagProps) => {
   return (
     <div css={styles.tagStyle(color, mode, size)} onClick={onClickTagButton}>
       <span>{text}</span>
-      <span className="tag-delete-button">x</span>
+      <div className="tag-button">
+        <PiMouseMiddleClickDuotone />
+      </div>
     </div>
   );
 };

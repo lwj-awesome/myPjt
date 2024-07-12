@@ -7,8 +7,9 @@ import { commonThreeModeStyle } from "../common.styles";
 const badgeFont = fontVars.typography.heading.sm;
 
 export const badgeStyle = (color: ColorType, mode: ThreeLayoutModeType) => css`
-  ${commonThreeModeStyle(color, mode)}
+  box-sizing: border-box;
   ${badgeFont}
   padding:2px 4px;
-  border-radius: 2px;
+  border-radius: 4px;
+  ${commonThreeModeStyle(color, mode)}
 `;

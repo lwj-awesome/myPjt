@@ -35,4 +35,9 @@ export const tagStyle = (
   gap: 8px;
   ${commonThreeModeStyle(color, mode)}
   ${tagFont(size)}
+
+  .tag-button{
+    display: flex;
+    align-items: center;
+  }
 `;

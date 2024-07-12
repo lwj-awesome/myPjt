@@ -10971,6 +10971,8 @@ __metadata:
     "@storybook/react-vite": "npm:^8.1.5"
     "@storybook/test": "npm:^8.1.5"
     prop-types: "npm:^15.8.1"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
     storybook: "npm:^8.1.5"
     vite: "npm:^5.2.12"
   languageName: unknown

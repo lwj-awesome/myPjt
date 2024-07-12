@@ -77,12 +77,3 @@ const Alert = ({ shape = "top-accent", alert = "success" }: AlertProps) => {
 
 export { Alert };
 
-{
-  /* <div css={styles.alertStyle(shape, backColor[alert])}>
-        <div>{alertIcon(alert)}</div>
-        <div css={styles.alertContentStyle}>
-          <div className="title-style">Title</div>
-          <div className="content-style">content</div>
-        </div>
-      </div> */
-}
