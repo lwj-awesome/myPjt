@@ -1,7 +1,11 @@
 import React from "react";
 import { Badge, BadgeTypes } from "@mypjt/components";
 import { Meta, StoryFn, StoryObj } from "@storybook/react";
-import { commonColor, commonLayoutMode, commonSize } from "../constant/commonVar";
+import {
+  commonColor,
+  commonLayoutMode,
+  commonSize,
+} from "../constant/commonVar";
 
 const meta: Meta<BadgeTypes.BadgeProps> = {
   title: "Badge",
@@ -25,6 +29,7 @@ const meta: Meta<BadgeTypes.BadgeProps> = {
       control: "select",
       options: commonColor,
       description: "Badge의 색상을 설정합니다. 정해진 ColorTypes를 사용합니다.",
+      type: "CommonTypes.ColorType",
     },
     text: {
       control: "text",
@@ -35,6 +40,7 @@ const meta: Meta<BadgeTypes.BadgeProps> = {
       options: commonLayoutMode,
       description:
         "Badge의 테두리 모양을 설정합니다. 정해진 Layout을 사용합니다.",
+      type: "CommonTypes.ThreeLayoutModeType",
     },
   },
 };
