@@ -8,16 +8,13 @@ const Input = ({
   size = "lg",
   ...props
 }: InputProps) => {
-  size;
   return (
-    <>
-      <input
-        css={styles.InputStyle(size, isRound, isDanger, isReadOnly)}
-        {...props}
-        readOnly={isReadOnly}
-        disabled={isReadOnly}
-      />
-    </>
+    <input
+      css={styles.InputStyle(size, isRound, isDanger, isReadOnly)}
+      readOnly={isReadOnly}
+      disabled={isReadOnly}
+      {...props}
+    />
   );
 };
 

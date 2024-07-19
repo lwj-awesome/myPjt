@@ -2,10 +2,10 @@ import * as styles from "./Button.styles";
 import { ButtonProps } from "./Button.types";
 
 const Button = ({
-  text = "Button",
-  color = "red",
-  mode = "outline",
-  size = "md",
+  text,
+  color,
+  mode,
+  size,
   onClickButton = () => console.log("click button"),
 }: ButtonProps) => {
   return (

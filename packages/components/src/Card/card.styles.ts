@@ -34,4 +34,5 @@ export const CardStyle = (
   border-radius: 8px;
   width: ${width}px;
   height: ${height}px;
+  padding: 12px;
 `;

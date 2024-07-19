@@ -1,11 +1,7 @@
 import React from "react";
 import { Badge, BadgeTypes } from "@mypjt/components";
 import { Meta, StoryFn, StoryObj } from "@storybook/react";
-import {
-  commonColor,
-  commonLayoutMode,
-  commonSize,
-} from "../constant/commonVar";
+import { commonColor, commonLayoutMode } from "../constant/commonVar";
 
 const meta: Meta<BadgeTypes.BadgeProps> = {
   title: "Badge",
