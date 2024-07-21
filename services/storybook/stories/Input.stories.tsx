@@ -3,7 +3,7 @@ import { Input, InputTypes } from "@mypjt/components";
 import { Meta, StoryObj } from "@storybook/react";
 import { commonSize } from "../constant/commonVar";
 const meta: Meta<InputTypes.InputProps> = {
-  title: "Input",
+  title: "Form/Input",
   component: Input,
   parameters: {
     layout: "centered",
@@ -60,7 +60,7 @@ export const InputExample = () => {
   console.log(inputState);
   return (
     <div>
-      <Input size="lg" onChange={onChangeInput} value="dd" />
+      <Input size="lg" onChange={onChangeInput} value={inputState} />
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 
 const cardModeVar: CardTypes.CardModeType[] = ["elevated", "filled", "outline"];
 const meta: Meta<CardTypes.CardProps> = {
-  title: "Card",
+  title: "Date Display/Card",
   component: Card,
   parameters: {
     layout: "centered",
@@ -41,13 +41,23 @@ const meta: Meta<CardTypes.CardProps> = {
 export default meta;
 
 type Story = StoryObj<CardTypes.CardProps>;
-
 export const docs: Story = {};
 
 export const CardExample = () => {
   return (
-    <Card mode="filled">
-      <div>Card!!</div>
-    </Card>
+    <div
+      style={{
+        width: "500px",
+        height: "500px",
+        backgroundColor: "gray",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <Card mode="filled">
+        <div>Card!!</div>
+      </Card>
+    </div>
   );
 };

@@ -6,7 +6,7 @@ const accordionContent =
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
 const meta: Meta<AccordionTypes.AccordionProps> = {
-  title: "Accordion",
+  title: "DisClosure/Accordion",
   component: Accordion,
   parameters: {
     layout: "centered",

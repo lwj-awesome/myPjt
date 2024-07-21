@@ -1,4 +1,4 @@
-export *from "./Badge";
+export * from "./Badge";
 export * from "./Card";
 export * from "./Tag";
 export * from "./Button";
@@ -14,4 +14,6 @@ export * from "./Accordion";
 export * from "./Alert";
 export * from "./Modal";
 export * from "./Dimmed";
-export type * as CommonTypes from './common.type'
+export * from "./ColorGroupTheme";
+export * from "./FontGroup";
+export type * as CommonTypes from "./common.type";

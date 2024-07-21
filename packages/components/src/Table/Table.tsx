@@ -1,38 +1,7 @@
-const value: DataProps[] = [
-  {
-    no: 0,
-    groupId: 120099029854,
-    groupName: "그룹 명 입니다wwd.",
-    create: true,
-  },
-  {
-    no: 0,
-    groupId: 120099029854,
-    groupName: "그룹 명 입니다.",
-    create: true,
-  },
-  {
-    no: 0,
-    groupId: 120099029854,
-    groupName: "그룹 명 입니다.",
-    create: true,
-  },
-  {
-    no: 0,
-    groupId: 120099029854,
-    groupName: "그룹 명 입니다.",
-    create: true,
-  },
-];
-const column: ColumnItemProps[] = [
-  { key: "no", value: "No", colWidth: "1" },
-  { key: "groupId", value: "그룹 ID", colWidth: "1" },
-  { key: "groupName", value: "그룹 명", colWidth: "1" },
-  { key: "create", value: "C", colWidth: "1" },
-];
 import * as styles from "./table.styles";
-import { ColumnItemProps, DataProps, TableProps } from "./table.types";
-const Table = ({ data = value, columns = column }: TableProps) => (
+import { TableProps } from "./table.types";
+
+const Table = ({ data, columns }: TableProps) => (
   <table css={styles.tableLayoutStyle}>
     <thead css={styles.tableColumnStyle}>
       <tr>

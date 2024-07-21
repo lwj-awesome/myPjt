@@ -4,5 +4,6 @@ export interface SwitchProps {
   size: excludeXsSizeType;
   color: ColorType;
   isOn: boolean;
-  isReadOnly: boolean;
+  isReadOnly?: boolean;
+  onClickSwitch?: () => void;
 }

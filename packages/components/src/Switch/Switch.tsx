@@ -3,13 +3,17 @@ import * as styles from "./switch.styles";
 import { SwitchProps } from "./switch.types";
 
 const Switch = ({
-  size = "sm",
-  color = "blue",
-  isOn = true,
+  size,
+  onClickSwitch,
+  color,
+  isOn,
   isReadOnly = false,
 }: SwitchProps) => {
   return (
-    <div css={styles.switchStyle({ size, isOn, isReadOnly, color })}>
+    <div
+      onClick={onClickSwitch}
+      css={styles.switchStyle({ size, isOn, isReadOnly, color })}
+    >
       <div className="switch-circle" />
     </div>
   );

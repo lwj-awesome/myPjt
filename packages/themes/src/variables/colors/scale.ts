@@ -1,9 +1,12 @@
-export const basicColor = {
+export type ColorSetProps = {
+  [key in any]: string;
+};
+export const basicColor: ColorSetProps = {
   black: "#000",
   white: "#fff",
 };
 
-export const whiteAlpha = {
+export const whiteAlpha: ColorSetProps = {
   50: "var(--white-alpha-50)",
   100: "var(--white-alpha-100)",
   200: "var(--white-alpha-200)",
@@ -16,7 +19,7 @@ export const whiteAlpha = {
   900: "var(--white-alpha-900)",
 };
 
-export const blackAlpha = {
+export const blackAlpha: ColorSetProps = {
   50: "var(--black-alpha-50)",
   100: "var(--black-alpha-100)",
   200: "var(--black-alpha-200)",
@@ -29,7 +32,7 @@ export const blackAlpha = {
   900: "var(--black-alpha-900)",
 };
 
-export const gray = {
+export const gray: ColorSetProps = {
   50: "var(--gray-50)",
   100: "var(--gray-100)",
   200: "var(--gray-200)",
@@ -42,7 +45,7 @@ export const gray = {
   900: "var(--gray-900)",
 };
 
-export const red = {
+export const red: ColorSetProps = {
   50: "var(--red-50)",
   100: "var(--red-100)",
   200: "var(--red-200)",
@@ -55,7 +58,7 @@ export const red = {
   900: "var(--red-900)",
 };
 
-export const orange = {
+export const orange: ColorSetProps = {
   50: "var(--orange-50)",
   100: "var(--orange-100)",
   200: "var(--orange-200)",
@@ -68,7 +71,7 @@ export const orange = {
   900: "var(--orange-900)",
 };
 
-export const yellow = {
+export const yellow: ColorSetProps = {
   50: "var(--yellow-50)",
   100: "var(--yellow-100)",
   200: "var(--yellow-200)",
@@ -81,7 +84,7 @@ export const yellow = {
   900: "var(--yellow-900)",
 };
 
-export const green = {
+export const green: ColorSetProps = {
   50: "var(--green-50)",
   100: "var(--green-100)",
   200: "var(--green-200)",
@@ -94,7 +97,7 @@ export const green = {
   900: "var(--green-900)",
 };
 
-export const teal = {
+export const teal: ColorSetProps = {
   50: "var(--teal-50)",
   100: "var(--teal-100)",
   200: "var(--teal-200)",
@@ -107,7 +110,7 @@ export const teal = {
   900: "var(--teal-900)",
 };
 
-export const blue = {
+export const blue: ColorSetProps = {
   50: "var(--blue-50)",
   100: "var(--blue-100)",
   200: "var(--blue-200)",
@@ -120,7 +123,7 @@ export const blue = {
   900: "var(--blue-900)",
 };
 
-export const cyan = {
+export const cyan: ColorSetProps = {
   50: "var(--cyan-50)",
   100: "var(--cyan-100)",
   200: "var(--cyan-200)",
@@ -133,7 +136,7 @@ export const cyan = {
   900: "var(--cyan-900)",
 };
 
-export const purple = {
+export const purple: ColorSetProps = {
   50: "var(--purple-50)",
   100: "var(--purple-100)",
   200: "var(--purple-200)",
@@ -146,7 +149,7 @@ export const purple = {
   900: "var(--purple-900)",
 };
 
-export const pink = {
+export const pink: ColorSetProps = {
   50: "var(--pink-50)",
   100: "var(--pink-100)",
   200: "var(--pink-200)",

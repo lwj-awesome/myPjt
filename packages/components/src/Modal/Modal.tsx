@@ -2,15 +2,7 @@ import { Button } from "../Button";
 import { Dimmed } from "../Dimmed";
 import * as styles from "./modal.styles";
 import { FaX } from "react-icons/fa6";
-
-export interface ModalProps {
-  title: string;
-  content: React.ReactNode;
-  cancelButtonTitle: string;
-  confirmButtonTitle: string;
-  cancelButtonClick: () => void;
-  confirmButtonClick: () => void;
-}
+import { ModalProps } from "./modal.types";
 
 const Modal = ({
   cancelButtonClick,

@@ -24,4 +24,5 @@ export const sub_border_color: ColorSetProps = {
   yellow: vars.colors.$scale.yellow[200],
   cyan: vars.colors.$scale.cyan[200],
 };
+
 export const readOnly_border_color = vars.colors.$scale.gray[300];

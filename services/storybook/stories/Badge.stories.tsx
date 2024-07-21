@@ -4,7 +4,7 @@ import { Meta, StoryFn, StoryObj } from "@storybook/react";
 import { commonColor, commonLayoutMode } from "../constant/commonVar";
 
 const meta: Meta<BadgeTypes.BadgeProps> = {
-  title: "Badge",
+  title: "Date Display/Badge",
   component: Badge,
   parameters: {
     layout: "centered",

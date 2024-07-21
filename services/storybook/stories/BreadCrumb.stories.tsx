@@ -9,7 +9,7 @@ const separatorVars: BreadCrumbTypes.SeparatorType[] = [
   "BsDash",
 ];
 const meta: Meta<BreadCrumbTypes.BreadCrumbProps> = {
-  title: "BreadCrumb",
+  title: "Navigation/BreadCrumb",
   component: BreadCrumb,
   parameters: {
     layout: "centered",

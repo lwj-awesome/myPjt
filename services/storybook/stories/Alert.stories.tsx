@@ -15,7 +15,7 @@ const alertTypeVar: AlertTypes.AlertType[] = [
 ];
 
 const meta: Meta<AlertTypes.AlertProps> = {
-  title: "Alert",
+  title: "Feedback/Alert",
   component: Alert,
   parameters: {
     layout: "centered",

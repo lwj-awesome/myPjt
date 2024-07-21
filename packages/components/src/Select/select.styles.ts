@@ -1,13 +1,11 @@
 import { css } from "@emotion/react";
-import {
-  sub_background_color,
-  table_back_color,
-} from "../colorGroup/backgroundColorSet";
+import { table_back_color } from "../colorGroup/backgroundColorSet";
 import { fontVars } from "@mypjt/themes";
 import { sub_text_color } from "../colorGroup/textColorSet";
 
 export const selectLayoutStyle = css`
   background-color: ${table_back_color};
+  min-width: 200px;
   border-radius: 6px;
 `;
 

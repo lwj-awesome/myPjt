@@ -8,7 +8,7 @@ import {
 } from "../constant/commonVar";
 
 const meta: Meta<ButtonTypes.ButtonProps> = {
-  title: "Button",
+  title: "Form/Button",
   component: Button,
   parameters: {
     layout: "centered",

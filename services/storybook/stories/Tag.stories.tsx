@@ -8,7 +8,7 @@ import {
 } from "../constant/commonVar";
 
 const meta: Meta<TagTypes.TagProps> = {
-  title: "Tag",
+  title: "Date Display/Tag",
   component: Tag,
   parameters: {
     layout: "centered",

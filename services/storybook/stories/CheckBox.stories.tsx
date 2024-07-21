@@ -4,7 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import { commonColor } from "../constant/commonVar";
 
 const meta: Meta<CheckBoxTypes.CheckboxProps> = {
-  title: "CheckBox",
+  title: "Form/CheckBox",
   component: CheckBox,
   parameters: {
     layout: "centered",
