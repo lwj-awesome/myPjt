@@ -1,5 +1,4 @@
 import { css } from "@emotion/react";
-import { sub_background_color } from "../colorGroup/backgroundColorSet";
 
 export const dimmedStyle = css`
   position: fixed;

@@ -1,0 +1,57 @@
+# 모노레포
+
+프로젝트의 규모가 작아 모노레포가 꼭 필요한 스택은 아니지만,
+모노레포를 사용하면 여러 프로젝트를 하나의 리포지토리에서 관리할 수 있어 코드 재사용,
+일관된 버전 관리를 통한 개발 효율성이 향상되기에 모노레포를 채택했습니다.
+
+```bash
+NX
+
+├── packages
+│   ├── components
+│   ├── esbuild-config
+│   └── themes
+├── services
+│   ├── storybook
+│   ├── docs
+
+```
+
+```javascript
+// packages/components/package.json
+    ...
+  "devDependencies": {
+                 ...
+    "@mypjt/esbuild-config": "workspace:^",
+    "@mypjt/themes": "workspace:^",
+                ...
+  },
+
+    ...
+
+```
+
+### packages
+
+##### components
+
+스토리북에 사용할 리액트 컴포넌트를 정의한 패키지입니다.
+`react`, `typescript` , `emotion/react`
+
+##### esbuild-config
+
+esbuild 빌드 기본 설정 패키지입니다.
+
+#### themes
+
+컴포넌트를 구성하는데 필요한 color, text, 등 디자인 토큰의 모음입니다.
+
+### services
+
+#### storybook
+
+components를 활용하여 디자인 시스템인 스토리북입니다.
+
+##### docs
+
+현재 페이지를 구성하는 docs 패키지입니다. `nextra`

@@ -6,7 +6,7 @@ const meta: Meta<ModalTypes.ModalProps> = {
   title: "Overlay/Modal",
   component: Modal,
   parameters: {
-    layout: "centered",
+    layout: "padded",
     docs: {
       source: {
         type: "code",

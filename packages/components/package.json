@@ -29,7 +29,6 @@
     "typescript": "^5.4.5"
   },
   "peerDependencies": {
-    "@mypjt/themes": "workspace:^",
     "react": "*"
   },
   "dependencies": {

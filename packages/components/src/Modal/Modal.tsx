@@ -13,7 +13,7 @@ const Modal = ({
   title = "Modal title",
 }: ModalProps) => {
   return (
-    <Dimmed>
+    <>
       <div css={styles.modalLayoutStyle}>
         <div css={styles.modalTitleStyle}>
           <span>{title}</span>
@@ -39,7 +39,7 @@ const Modal = ({
           />
         </div>
       </div>
-    </Dimmed>
+    </>
   );
 };
 

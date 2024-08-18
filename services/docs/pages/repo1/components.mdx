@@ -1,0 +1,254 @@
+## components
+
+###### themes의 토큰들을 가져와 만든 리액트 컴포넌트들의 모음입니다.
+
+###### 컴포넌트에서만 사용하는 새로운 디자인 토큰을 다시 선언하여 사용합니다.
+
+### 1. ColorGroup을 선언
+
+컬러의 메인과 서브 및 action Color를 정의하여 아래 컬러셋을 따릅니다.
+
+추가적으로 필요한 컬러가 생긴다면 해당 파일에 새로 정의해 사용할 수 있습니다.
+
+###### text_color
+
+```javascript
+export const main_text_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[800],
+  blue: vars.colors.$scale.blue[800],
+  teal: vars.colors.$scale.teal[800],
+  green: vars.colors.$scale.gray[800],
+  red: vars.colors.$scale.red[800],
+  purple: vars.colors.$scale.purple[800],
+  pink: vars.colors.$scale.pink[800],
+  orange: vars.colors.$scale.orange[800],
+  yellow: vars.colors.$scale.yellow[800],
+  cyan: vars.colors.$scale.cyan[800],
+};
+export const sub_text_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[600],
+  blue: vars.colors.$scale.blue[600],
+  teal: vars.colors.$scale.teal[600],
+  green: vars.colors.$scale.gray[600],
+  red: vars.colors.$scale.red[600],
+  purple: vars.colors.$scale.purple[600],
+  pink: vars.colors.$scale.pink[600],
+  orange: vars.colors.$scale.orange[600],
+  yellow: vars.colors.$scale.yellow[600],
+  cyan: vars.colors.$scale.cyan[600],
+};
+
+export const readOnly_text_color = vars.colors.$scale.gray[400];
+export const white_text_color = vars.colors.$scale.whiteAlpha[900];
+
+
+```
+
+###### background_color
+
+```javascript
+export const main_background_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[500],
+  blue: vars.colors.$scale.blue[500],
+  teal: vars.colors.$scale.teal[500],
+  green: vars.colors.$scale.green[500],
+  red: vars.colors.$scale.red[500],
+  purple: vars.colors.$scale.purple[500],
+  pink: vars.colors.$scale.pink[500],
+  orange: vars.colors.$scale.orange[500],
+  yellow: vars.colors.$scale.yellow[500],
+  cyan: vars.colors.$scale.cyan[500],
+};
+export const sub_background_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[100],
+  blue: vars.colors.$scale.blue[100],
+  teal: vars.colors.$scale.teal[100],
+  green: vars.colors.$scale.green[100],
+  red: vars.colors.$scale.red[100],
+  purple: vars.colors.$scale.purple[100],
+  pink: vars.colors.$scale.pink[100],
+  orange: vars.colors.$scale.orange[100],
+  yellow: vars.colors.$scale.yellow[100],
+  cyan: vars.colors.$scale.cyan[100],
+};
+
+export const readOnly_background_color = vars.colors.$scale.gray[300];
+export const white_background_color = vars.colors.$scale.whiteAlpha[100];
+export const white_ball_color = vars.colors.$scale.basicColor.white;
+export const table_back_color = vars.colors.$scale.gray[50];
+
+```
+
+###### border-color
+
+```javascript
+
+export const main_border_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[500],
+  blue: vars.colors.$scale.blue[500],
+  teal: vars.colors.$scale.teal[500],
+  green: vars.colors.$scale.green[500],
+  red: vars.colors.$scale.red[500],
+  purple: vars.colors.$scale.purple[500],
+  pink: vars.colors.$scale.pink[500],
+  orange: vars.colors.$scale.orange[500],
+  yellow: vars.colors.$scale.yellow[500],
+  cyan: vars.colors.$scale.cyan[500],
+};
+export const sub_border_color: ColorSetProps = {
+  gray: vars.colors.$scale.gray[200],
+  blue: vars.colors.$scale.blue[200],
+  teal: vars.colors.$scale.teal[200],
+  green: vars.colors.$scale.green[200],
+  red: vars.colors.$scale.red[200],
+  purple: vars.colors.$scale.purple[200],
+  pink: vars.colors.$scale.pink[200],
+  orange: vars.colors.$scale.orange[200],
+  yellow: vars.colors.$scale.yellow[200],
+  cyan: vars.colors.$scale.cyan[200],
+};
+
+export const readOnly_border_color = vars.colors.$scale.gray[300];
+
+```
+
+### 2. React components
+
+`react` + `typescript` + `emotion`을 사용하여 컴포넌트를 구성하였습니다.
+
+17개의 컴포넌트가 구성되어 있습니다.
+
+예시로 Badge컴포넌트를 간략하게 설명하겠습니다.
+
+```bash
+├── Badge
+│   ├── badge.styles.ts
+│   ├── Badge.tsx
+│   └── badge.types.ts
+│   └── index.ts
+```
+
+- Badge.tsx에 컴포넌트를 정의
+
+```javascript
+import * as styles from "./badge.styles";
+import { BadgeProps } from "./badge.types";
+
+const Badge = ({
+  color ,
+  text ,
+  mode ,
+}: BadgeProps) => {
+  return <div css={styles.badgeStyle(color, mode)}>{text}</div>;
+};
+
+export { Badge };
+
+```
+
+- badge.styles.ts에 스타일을 정의하여 사용
+
+```javascript
+export const badgeStyle = (color: ColorType, mode: ThreeLayoutModeType) => css`
+  width: fit-content;
+  box-sizing: border-box;
+  ${badgeFont}
+  padding:2px 4px;
+  border-radius: 4px;
+  ${commonThreeModeStyle(color, mode)}
+`;
+
+```
+
+- badge.types에 타입을 정의하여 사용
+
+```typescript
+export interface BadgeProps {
+  color: ColorType;
+  text: string;
+  mode: ThreeLayoutModeType;
+}
+```
+
+- index.ts를 통해 내보내기.
+
+```typescript
+export { Badge } from "./Badge";
+export type * as BadgeTypes from "./badge.types";
+```
+
+### 3. 공통 스타일, 공통 타입
+
+'outline', 'subtitle' 등 공통으로 사용되는 스타일은 commonThreeModeStyle라는 이름으로 공통화 하여 사용중입니다.
+
+```javascript
+// packages/components/src/common.styles.ts
+
+const commonThreeModeStyle = (
+  color: ColorType,
+  mode: ThreeLayoutModeType,
+): SerializedStyles => {
+  switch (mode) {
+    case "outline":
+      return css`
+        background-color: ${white_background_color};
+        border: 2px solid ${main_border_color[color]};
+        color: ${sub_text_color[color]};
+      `;
+    case "subtitle":
+      return css`
+        background-color: ${sub_background_color[color]};
+        color: ${main_text_color[color]};
+      `;
+    default:
+      return css`
+        background-color: ${main_background_color[color]};
+        color: ${white_text_color};
+      `;
+  }
+};
+```
+
+마찬가지로 공통으로 사용되는 타입 또한 공통화 하여 사용합니다.
+
+```typescript
+// packages/components/src/common.type.ts
+/** @설명 공통 컬러 및 셋 타입 */
+export type ColorType =
+  | "gray"
+  | "blue"
+  | "teal"
+  | "green"
+  | "red"
+  | "purple"
+  | "pink"
+  | "orange"
+  | "yellow"
+  | "cyan";
+
+export type AllColorType = ColorType | "whiteAlpha" | "blackAlpha";
+
+export type ColorSetProps = {
+  [key in ColorType]: string;
+};
+
+/** @설명 공통 3가지 레이아웃 모드의 타입 */
+export type ThreeLayoutModeType = "solid" | "outline" | "subtitle";
+
+/** @설명 공통으로 사용할 사이즈 타입  */
+export type CommonSizeType = "lg" | "md" | "sm" | "xs";
+/** @설명 전체 폰트 타입 */
+export type AllFontType =
+  | "6xl"
+  | "5xl"
+  | "4xl"
+  | "3xl"
+  | "2xl"
+  | "xl"
+  | "lg"
+  | "md"
+  | "sm"
+  | "xs";
+
+export type HeadingFontType = Exclude<AllFontType, "6xl" | "5xl">;
+```

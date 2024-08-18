@@ -1,0 +1,8 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/repo1/components": "pages/repo1/components.js",
+  "/composition/system": "pages/composition/system.js",
+  "/composition/monorepo": "pages/composition/monorepo.js"
+}

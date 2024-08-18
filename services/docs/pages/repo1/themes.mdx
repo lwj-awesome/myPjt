@@ -1,0 +1,47 @@
+## Themes
+
+컴포넌트에 사용하는 컬러, 텍스트 등을 디자인 토큰 개념의 패키지입니다.
+
+```javascript
+import { fontVars, vars } from "@mypjt/themes";
+```
+
+scripts 폴더 내의 build-css-modules.js는
+설정하려는 디자인 토큰의 이름으로 css파일을 내보내기 위한 모듈입니다.
+build 후 dist 폴더 내의 theems.css로 확인 가능합니다.
+
+##### src
+
+fontvars는 heading, text의 디자인 토큰입니다.
+
+```javascript
+export const heading = {
+    "4xl": {
+        fontSize: typography.fontSize[60],
+        fontWeight: typography.fontWeight[700],
+        lineHeight: typography.lineHeight[100],
+    },
+    .
+    .
+    .
+```
+
+variables는 컬러들과 사이즈 토큰들의 모음입니다.
+
+```javascript
+export const whiteAlpha = {
+    900: "rgba(255, 255, 255, 0.04)",
+    800: "rgba(255, 255, 255, 0.06)",
+    700: "rgba(255, 255, 255, 0.08)",
+    600: "rgba(255, 255, 255, 0.16)",
+    500: "rgba(255, 255, 255, 0.24)",
+    400: "rgba(255, 255, 255, 0.36)",
+    300: "rgba(255, 255, 255, 0.48)",
+    200: "rgba(255, 255, 255, 0.64)",
+    100: "rgba(255, 255, 255, 0.80)",
+    50: "rgba(255, 255, 255, 0.92)",
+};
+    .
+    .
+    .
+```
