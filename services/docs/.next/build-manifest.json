@@ -22,20 +22,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/composition/monorepo": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/composition/monorepo.js"
-    ],
-    "/composition/system": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/composition/system.js"
-    ],
     "/repo1/components": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/repo1/components.js"
+    ],
+    "/repo1/themes": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/repo1/themes.js"
     ]
   },
   "ampFirstPages": []
