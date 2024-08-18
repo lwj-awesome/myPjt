@@ -22,6 +22,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/repo1/colorgroup": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/repo1/colorgroup.js"
+    ],
     "/repo1/components": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",

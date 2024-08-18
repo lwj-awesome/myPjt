@@ -32,6 +32,28 @@
         "tags": []
       }
     },
+    ".next": {
+      "name": ".next",
+      "type": "app",
+      "data": {
+        "root": "services/docs/.next",
+        "sourceRoot": "services/docs/.next",
+        "name": ".next",
+        "projectType": "application",
+        "targets": {
+          "nx-release-publish": {
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "executor": "@nx/js:release-publish",
+            "options": {},
+            "configurations": {}
+          }
+        },
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "@mypjt/components": {
       "name": "@mypjt/components",
       "type": "lib",
@@ -72,28 +94,6 @@
             },
             "configurations": {}
           },
-          "nx-release-publish": {
-            "dependsOn": [
-              "^nx-release-publish"
-            ],
-            "executor": "@nx/js:release-publish",
-            "options": {},
-            "configurations": {}
-          }
-        },
-        "implicitDependencies": [],
-        "tags": []
-      }
-    },
-    ".next": {
-      "name": ".next",
-      "type": "app",
-      "data": {
-        "root": "services/docs/.next",
-        "sourceRoot": "services/docs/.next",
-        "name": ".next",
-        "projectType": "application",
-        "targets": {
           "nx-release-publish": {
             "dependsOn": [
               "^nx-release-publish"
@@ -13617,6 +13617,7 @@
   },
   "dependencies": {
     "@mypjt/esbuild-config": [],
+    ".next": [],
     "@mypjt/components": [
       {
         "source": "@mypjt/components",
@@ -13634,7 +13635,6 @@
         "type": "static"
       }
     ],
-    ".next": [],
     "storybook": [
       {
         "source": "storybook",

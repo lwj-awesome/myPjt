@@ -885,7 +885,7 @@
         },
         {
           "file": "services/docs/pages/repo1/components.mdx",
-          "hash": "6555913644897500752"
+          "hash": "15438183368414760386"
         },
         {
           "file": "services/docs/pages/repo1/themes.mdx",
@@ -898,28 +898,32 @@
         {
           "file": "services/docs/theme.config.jsx",
           "hash": "11103668107061435361"
+        },
+        {
+          "file": "services/docs/pages/repo1/colorgroup.mdx",
+          "hash": "13131814240587355974"
         }
       ],
       ".next": [
         {
           "file": "services/docs/.next/cache/webpack/client-development/0.pack.gz",
-          "hash": "812174744000955238"
+          "hash": "14954717046522514657"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/1.pack.gz",
-          "hash": "7533162366978288542"
+          "hash": "7654611053118138655"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/10.pack.gz",
-          "hash": "11946047075762790883"
+          "hash": "3952989725710378334"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/11.pack.gz",
-          "hash": "16402564467269113559"
+          "hash": "17042728625183806"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/12.pack.gz",
-          "hash": "856758884775351591"
+          "hash": "16474507687917755708"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/13.pack.gz",
@@ -955,7 +959,7 @@
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/4.pack.gz",
-          "hash": "3664959333396564702"
+          "hash": "7867498175302583357"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/5.pack.gz",
@@ -963,11 +967,11 @@
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/6.pack.gz",
-          "hash": "84267229259849769"
+          "hash": "12882198394131200729"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/7.pack.gz",
-          "hash": "5229035378753758983"
+          "hash": "9454675709785139571"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/8.pack.gz",
@@ -975,47 +979,47 @@
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/9.pack.gz",
-          "hash": "2290814923149669132"
+          "hash": "14155659311669935936"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/index.pack.gz",
-          "hash": "15523286004002764047"
+          "hash": "5456129722931486447"
         },
         {
           "file": "services/docs/.next/cache/webpack/client-development/index.pack.gz.old",
-          "hash": "4560222451812170098"
+          "hash": "12858576592128402057"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/0.pack.gz",
-          "hash": "17898544982311984803"
+          "hash": "3996332303654523058"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/1.pack.gz",
-          "hash": "13107982853771255097"
+          "hash": "16720517371989340727"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/2.pack.gz",
-          "hash": "903623820451519535"
+          "hash": "15055708316426902624"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/3.pack.gz",
-          "hash": "5680110893651850209"
+          "hash": "8272229230207007613"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/4.pack.gz",
-          "hash": "14589634402100109590"
+          "hash": "961082582146089624"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/5.pack.gz",
-          "hash": "2592687448556344219"
+          "hash": "16482103550851091839"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/6.pack.gz",
-          "hash": "462383505345475584"
+          "hash": "14694110326893700010"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/7.pack.gz",
-          "hash": "7391705129992064095"
+          "hash": "2769362741894738902"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/8.pack.gz",
@@ -1023,11 +1027,11 @@
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/index.pack.gz",
-          "hash": "3453352209704273676"
+          "hash": "2505074342398269724"
         },
         {
           "file": "services/docs/.next/cache/webpack/server-development/index.pack.gz.old",
-          "hash": "2643191577086192573"
+          "hash": "12932774739662260075"
         },
         {
           "file": "services/docs/.next/package.json",
@@ -1391,7 +1395,7 @@
         },
         {
           "file": "services/docs/.next/server/pages-manifest.json",
-          "hash": "16760194662063182781"
+          "hash": "11406971077106767744"
         },
         {
           "file": "services/docs/.next/server/middleware-react-loadable-manifest.js",
@@ -1407,15 +1411,15 @@
         },
         {
           "file": "services/docs/.next/static/development/_buildManifest.js",
-          "hash": "16870300024067733187"
+          "hash": "1418322372507625622"
         },
         {
           "file": "services/docs/.next/build-manifest.json",
-          "hash": "15166981269008498490"
+          "hash": "770371579079773824"
         },
         {
           "file": "services/docs/.next/server/middleware-build-manifest.js",
-          "hash": "1783643483360941485"
+          "hash": "1555890552267260254"
         },
         {
           "file": "services/docs/.next/server/interception-route-rewrite-manifest.js",
@@ -1471,7 +1475,7 @@
         },
         {
           "file": "services/docs/.next/static/chunks/pages/index.js",
-          "hash": "17127861517271107663"
+          "hash": "11286423044947025166"
         },
         {
           "file": "services/docs/.next/static/chunks/_yarn_berry_cache_mermaid-npm-10_9_1-a6eb2f99ec-10c0_zip_node_modules_mermaid_dist_erDiagram--e660bc.js",
@@ -1491,7 +1495,7 @@
         },
         {
           "file": "services/docs/.next/static/chunks/webpack.js",
-          "hash": "10129886958718729240"
+          "hash": "8442206876614631780"
         },
         {
           "file": "services/docs/.next/static/chunks/_yarn_berry_cache_mermaid-npm-10_9_1-a6eb2f99ec-10c0_zip_node_modules_mermaid_dist_flowDiagra-0ae200.js",
@@ -1675,7 +1679,7 @@
         },
         {
           "file": "services/docs/.next/server/pages/index.js",
-          "hash": "16966973555832709533"
+          "hash": "10765368768664162974"
         },
         {
           "file": "services/docs/.next/server/vendor-chunks/micromark-util-resolve-all.js",
@@ -1931,7 +1935,7 @@
         },
         {
           "file": "services/docs/.next/static/chunks/nextra-data-en-US.json",
-          "hash": "18351822351497867300"
+          "hash": "7648062708697017020"
         },
         {
           "file": "services/docs/.next/server/vendor-chunks/next-themes.js",
@@ -1971,7 +1975,7 @@
         },
         {
           "file": "services/docs/.next/static/chunks/pages/repo1/components.js",
-          "hash": "477950963442418540"
+          "hash": "6139810330059883694"
         },
         {
           "file": "services/docs/.next/static/webpack/webpack.50b462decb141fbb.hot-update.js",
@@ -1983,11 +1987,11 @@
         },
         {
           "file": "services/docs/.next/server/pages/repo1/components.js",
-          "hash": "10923676336468342085"
+          "hash": "13487245354380636474"
         },
         {
           "file": "services/docs/.next/static/chunks/pages/repo1/themes.js",
-          "hash": "6552684659079902065"
+          "hash": "8946071820451521196"
         },
         {
           "file": "services/docs/.next/static/webpack/webpack.23599011036c554b.hot-update.js",
@@ -1999,7 +2003,7 @@
         },
         {
           "file": "services/docs/.next/server/pages/repo1/themes.js",
-          "hash": "4284901584382288634"
+          "hash": "5092848475961707338"
         },
         {
           "file": "services/docs/.next/static/chunks/pages/composition/monorepo.js",
@@ -2015,7 +2019,7 @@
         },
         {
           "file": "services/docs/.next/server/pages/composition/monorepo.js",
-          "hash": "17351242772463106812"
+          "hash": "10399590266815867433"
         },
         {
           "file": "services/docs/.next/static/webpack/webpack.37b05fedecb1f676.hot-update.js",
@@ -2088,6 +2092,398 @@
         {
           "file": "services/docs/.next/static/webpack/webpack.f2a26d1d79090de0.hot-update.js",
           "hash": "10028006441826979127"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.f90fcc185894e916.hot-update.js",
+          "hash": "4445721087595849905"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/f90fcc185894e916.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/02b256e4a8dd6fe6.webpack.hot-update.json",
+          "hash": "11037058744124336001"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.02b256e4a8dd6fe6.hot-update.js",
+          "hash": "13807879691281562464"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/components.02b256e4a8dd6fe6.hot-update.js",
+          "hash": "379096406474088677"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.02b256e4a8dd6fe6.hot-update.js",
+          "hash": "1925789057455284229"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.5e1c1c7ba75f5c8d.hot-update.js",
+          "hash": "2304228963118952499"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/5e1c1c7ba75f5c8d.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.76c4ac8cb2bedcce.hot-update.js",
+          "hash": "1207774773278315436"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/76c4ac8cb2bedcce.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/f75872c540643b0b.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.f75872c540643b0b.hot-update.js",
+          "hash": "16641614172503252890"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.f75872c540643b0b.hot-update.js",
+          "hash": "17903442753057425648"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.935330517b3a41ee.hot-update.js",
+          "hash": "4213635969890213676"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.935330517b3a41ee.hot-update.js",
+          "hash": "8416454754312774804"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/935330517b3a41ee.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.13f6a5e9e89e2693.hot-update.js",
+          "hash": "10815918634693925094"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/13f6a5e9e89e2693.webpack.hot-update.json",
+          "hash": "15563324575416449011"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.13f6a5e9e89e2693.hot-update.js",
+          "hash": "9838237928252761751"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/afdf9cfac1fac44d.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.afdf9cfac1fac44d.hot-update.js",
+          "hash": "2804137760253360343"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.afdf9cfac1fac44d.hot-update.js",
+          "hash": "16614031119816257445"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/9376951a002d7995.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.9376951a002d7995.hot-update.js",
+          "hash": "5128206699493118737"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.9376951a002d7995.hot-update.js",
+          "hash": "5448035970355547748"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.5e1902ea87505081.hot-update.js",
+          "hash": "4513758142514025707"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/5e1902ea87505081.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.5e1902ea87505081.hot-update.js",
+          "hash": "7169483198627447499"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.6a46d8235d934cc2.hot-update.js",
+          "hash": "7997171912953306"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.6a46d8235d934cc2.hot-update.js",
+          "hash": "10710385588199712740"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/6a46d8235d934cc2.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.43556fe521d25791.hot-update.js",
+          "hash": "13276566550446688020"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.43556fe521d25791.hot-update.js",
+          "hash": "11111326117585312082"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/43556fe521d25791.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.0654529654be0b72.hot-update.js",
+          "hash": "6281603854168968799"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/0654529654be0b72.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.0654529654be0b72.hot-update.js",
+          "hash": "14103639445632334"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/0919a515f670eff2.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.0919a515f670eff2.hot-update.js",
+          "hash": "13683565174157784668"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.0919a515f670eff2.hot-update.js",
+          "hash": "8381199888090705866"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.86233c87ee0fa4cd.hot-update.js",
+          "hash": "1288962608139637889"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/86233c87ee0fa4cd.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.86233c87ee0fa4cd.hot-update.js",
+          "hash": "8845396063242606740"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.140c79348768d15e.hot-update.js",
+          "hash": "8834638949015535378"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/140c79348768d15e.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.140c79348768d15e.hot-update.js",
+          "hash": "16039809341981812125"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.9986d6d1ac7cfe62.hot-update.js",
+          "hash": "6673114117082079401"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/9986d6d1ac7cfe62.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.9986d6d1ac7cfe62.hot-update.js",
+          "hash": "10635710070434812825"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.bb947be401178ead.hot-update.js",
+          "hash": "10707576268856956099"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/bb947be401178ead.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.bb947be401178ead.hot-update.js",
+          "hash": "16273803031088316497"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.34e46ef862ac0f58.hot-update.js",
+          "hash": "12924297017184329776"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.34e46ef862ac0f58.hot-update.js",
+          "hash": "9540118696453437179"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/34e46ef862ac0f58.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.ae361b30f9ca58b9.hot-update.js",
+          "hash": "11030999642454513114"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/ae361b30f9ca58b9.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.ae361b30f9ca58b9.hot-update.js",
+          "hash": "1692725599401995886"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/f33e05150e19e9f8.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.f33e05150e19e9f8.hot-update.js",
+          "hash": "11236949870943132841"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.f33e05150e19e9f8.hot-update.js",
+          "hash": "12292735784861370541"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/d14fbdca10fb8932.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.d14fbdca10fb8932.hot-update.js",
+          "hash": "5866182766449619567"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.d14fbdca10fb8932.hot-update.js",
+          "hash": "15394667196293707068"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.2e54003443951611.hot-update.js",
+          "hash": "976752917325450595"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/2e54003443951611.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.2e54003443951611.hot-update.js",
+          "hash": "3835352464595020779"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.ad102d5726ec2a51.hot-update.js",
+          "hash": "1609091875402712434"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/ad102d5726ec2a51.webpack.hot-update.json",
+          "hash": "15049489350469151240"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.ad102d5726ec2a51.hot-update.js",
+          "hash": "4875811233332276304"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/f60797fa7d4f0538.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.f60797fa7d4f0538.hot-update.js",
+          "hash": "983868476709086265"
+        },
+        {
+          "file": "services/docs/.next/static/chunks/pages/repo2/storybook.js",
+          "hash": "12718443468226246100"
+        },
+        {
+          "file": "services/docs/.next/server/pages/repo2/storybook.js",
+          "hash": "1013845813039662649"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/ac628131a22e6f79.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.ac628131a22e6f79.hot-update.js",
+          "hash": "15835035898751429286"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/42eaa950ea5d99fb.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.42eaa950ea5d99fb.hot-update.js",
+          "hash": "6687404127735262254"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.87185565ca477b52.hot-update.js",
+          "hash": "7714696638812533733"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/87185565ca477b52.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/themes.2663a4357bb60edc.hot-update.js",
+          "hash": "18225394786813019166"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/index.2663a4357bb60edc.hot-update.js",
+          "hash": "4877453975542335725"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/2663a4357bb60edc.webpack.hot-update.json",
+          "hash": "10230955907341603823"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/components.2663a4357bb60edc.hot-update.js",
+          "hash": "10137515126464580692"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.2663a4357bb60edc.hot-update.js",
+          "hash": "16172067233187199100"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/components.b1a236c7691b427c.hot-update.js",
+          "hash": "4191572342728334786"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.b1a236c7691b427c.hot-update.js",
+          "hash": "9992765237894621560"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/b1a236c7691b427c.webpack.hot-update.json",
+          "hash": "7711972724028794348"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.390bbf0b9233869f.hot-update.js",
+          "hash": "10911235847554401319"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/components.390bbf0b9233869f.hot-update.js",
+          "hash": "2281257828039485206"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/390bbf0b9233869f.webpack.hot-update.json",
+          "hash": "7749873168930991299"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/f6e6f767a0e8cc67.webpack.hot-update.json",
+          "hash": "13405125561290911638"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.f6e6f767a0e8cc67.hot-update.js",
+          "hash": "18384401657200352586"
+        },
+        {
+          "file": "services/docs/.next/static/chunks/pages/repo1/colorgroup.js",
+          "hash": "13730836892838750934"
+        },
+        {
+          "file": "services/docs/.next/server/pages/repo1/colorgroup.js",
+          "hash": "13025796486137946370"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/pages/repo1/components.bd6a09b21793c32d.hot-update.js",
+          "hash": "4030819225634973533"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/bd6a09b21793c32d.webpack.hot-update.json",
+          "hash": "7711972724028794348"
+        },
+        {
+          "file": "services/docs/.next/static/webpack/webpack.bd6a09b21793c32d.hot-update.js",
+          "hash": "5121491708126879737"
         }
       ],
       "@mypjt/esbuild-config": [

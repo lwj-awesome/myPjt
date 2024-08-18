@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/composition/system": "pages/composition/system.js",
-  "/repo1/themes": "pages/repo1/themes.js",
-  "/repo1/components": "pages/repo1/components.js"
+  "/repo1/components": "pages/repo1/components.js",
+  "/repo1/colorgroup": "pages/repo1/colorgroup.js",
+  "/repo1/themes": "pages/repo1/themes.js"
 }
